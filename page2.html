@@ -1,18 +1,38 @@
 <html>
     <head>
         <title>Page 2: Styling with CSS</title>
+        <link href="styles/main.css" rel="stylesheet">
     </head>
+
+    <!--
+        <style type="text/css">
+            body {
+                background: green;
+            }
+        </style>
+    -->
+    
 
     <body>
         <h1>Styling with CSS</h1>
 
-        <ul>
+        <ul id="special">
             <li>How</li>
             <li>To</li>
             <li>Style</li>
         </ul>
 
         <h2>Page 2</h2>
+
         <p>This is how to use CSS to style your webpages</p>
+
+        <p class="secondary">This is how to use CSS to style your webpages</p>
+
+        <p>This is how to use CSS to style your webpages</p>
+
+        <button onclick="revealMessage()">Show Message</button>
+        <p id="hiddenMessage" style="display:none"> You have created a function in JavaScript</p>
     </body>
+
+    <script src="js/script.js"></script>
 </html>
